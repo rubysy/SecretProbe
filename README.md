@@ -22,7 +22,7 @@ A lightweight, modern Python tool for discovering **exposed secrets**, **misconf
 
 ---
 
-## 🎯 What It Does
+## What It Does
 
 SecretProbe automates the tedious first steps of web security assessment. Instead of manually checking for common misconfigurations one by one, run a single command and get a comprehensive security report.
 
@@ -30,7 +30,7 @@ SecretProbe automates the tedious first steps of web security assessment. Instea
 python secretprobe.py -u https://target.com -o report.html
 ```
 
-## 🔍 Security Checks
+## Security Checks
 
 | Check | Description | Detects |
 |:------|:-----------|:--------|
@@ -91,7 +91,7 @@ Use `--checks` with comma-separated values:
 | `admin` | Admin panel detection |
 | `all` | Run all checks (default) |
 
-## 📊 Scoring System
+## Scoring System
 
 SecretProbe assigns a security score from **0–100** based on findings:
 

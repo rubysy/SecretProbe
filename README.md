@@ -30,7 +30,7 @@ SecretProbe automates the tedious first steps of web security assessment. Instea
 python secretprobe.py -u https://target.com -o report.html
 ```
 
-### 📸 Demo
+### Demo:
 
 ![Scan Output](images/SecretProbe_scan.png)
 

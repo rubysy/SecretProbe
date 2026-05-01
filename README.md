@@ -22,7 +22,7 @@ A lightweight, modern Python tool for discovering **exposed secrets**, **misconf
 
 ---
 
-## 🎯 What It Does
+## What It Does?
 
 SecretProbe automates the tedious first steps of web security assessment. Instead of manually checking for common misconfigurations one by one, run a single command and get a comprehensive security report.
 
@@ -197,6 +197,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 **Made by rubysy**
 
 ⭐Star this repo if you find it useful!
-thanks
+thanks.
 
 </div>

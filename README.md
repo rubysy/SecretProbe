@@ -188,8 +188,9 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**Made with ❤️ for the cybersecurity community**
+**Made by rubysy**
 
-⭐ Star this repo if you find it useful!
+⭐Star this repo if you find it useful!
+thanks
 
 </div>

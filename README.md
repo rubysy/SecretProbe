@@ -40,14 +40,14 @@ python secretprobe.py -u https://target.com -o report.html
 
 | Check | Description | Detects |
 |:------|:-----------|:--------|
-| 🔑 **Sensitive Files** | Scans for exposed config & backup files | `.env`, `.git/`, `.sql` dumps, logs, backups |
-| 🛡️ **Security Headers** | Analyzes HTTP security headers | Missing HSTS, CSP, X-Frame-Options, etc. |
-| 🐛 **Debug Mode** | Detects development/debug artifacts | Laravel Debugbar, Django DEBUG=True, stack traces |
-| 🔐 **JS Secrets** | Scans JavaScript for hardcoded secrets | API keys, tokens, passwords, AWS keys |
-| 🍪 **Cookie Security** | Analyzes cookie security flags | Missing Secure, HttpOnly, SameSite |
-| 🌐 **CORS Config** | Tests for CORS misconfigurations | Wildcard origins, origin reflection |
-| 📡 **Server Info** | Checks for information disclosure | Server version, X-Powered-By, tech stack |
-| 🚪 **Admin Panels** | Detects exposed admin interfaces | `/admin`, `/wp-admin`, `/phpmyadmin`, etc. |
+|  **Sensitive Files** | Scans for exposed config & backup files | `.env`, `.git/`, `.sql` dumps, logs, backups |
+|  **Security Headers** | Analyzes HTTP security headers | Missing HSTS, CSP, X-Frame-Options, etc. |
+|  **Debug Mode** | Detects development/debug artifacts | Laravel Debugbar, Django DEBUG=True, stack traces |
+|  **JS Secrets** | Scans JavaScript for hardcoded secrets | API keys, tokens, passwords, AWS keys |
+|  **Cookie Security** | Analyzes cookie security flags | Missing Secure, HttpOnly, SameSite |
+|  **CORS Config** | Tests for CORS misconfigurations | Wildcard origins, origin reflection |
+|  **Server Info** | Checks for information disclosure | Server version, X-Powered-By, tech stack |
+|  **Admin Panels** | Detects exposed admin interfaces | `/admin`, `/wp-admin`, `/phpmyadmin`, etc. |
 
 ## ⚡ Quick Start
 
@@ -116,7 +116,7 @@ Severity weights:
 - 🟡 **MEDIUM**: -8 points (missing security headers, CORS issues)
 - 🔵 **LOW**: -3 points (info disclosure, minor misconfigs)
 
-## 📄 HTML Reports
+##  HTML Reports
 
 Generate beautiful, shareable HTML reports with the `-o` flag:
 
@@ -146,7 +146,7 @@ SecretProbe/
 └── README.md               # This file
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how you can help:
 
